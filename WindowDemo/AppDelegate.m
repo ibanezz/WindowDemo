@@ -20,7 +20,8 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor cyanColor];
+    //self.window.backgroundColor = [UIColor cyanColor];
+    self.window.backgroundColor = [UIColor blueColor];
     self.window.windowLevel = UIWindowLevelStatusBar;
     [self.window makeKeyAndVisible];
     
